@@ -1,0 +1,1 @@
+ npm i @commitlint/cli @commitlint/config-conventional commitizen cz-conventional-changelog -D
