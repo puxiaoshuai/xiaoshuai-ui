@@ -68,7 +68,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "src/alert/index.md",
-          "updatedTime": 1668613244000,
+          "updatedTime": 1668614290000,
           "componentName": "alert",
           "title": "Alert 警告提示",
           "nav": {
@@ -114,7 +114,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "docs/getting-started.md",
-          "updatedTime": 1668613939803,
+          "updatedTime": 1668614290000,
           "nav": {
             "title": "快速上手",
             "order": 1,
@@ -142,16 +142,21 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "docs/help.md",
-          "updatedTime": 1668613973597,
+          "updatedTime": 1668614290000,
           "nav": {
             "title": "帮助",
             "path": "/help"
           },
           "slugs": [
             {
-              "depth": 1,
+              "depth": 2,
               "value": "帮助",
               "heading": "帮助"
+            },
+            {
+              "depth": 2,
+              "value": "描述内容",
+              "heading": "描述内容"
             }
           ],
           "title": "帮助"
@@ -164,7 +169,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "docs/index.md",
-          "updatedTime": 1668614035775,
+          "updatedTime": 1668614290000,
           "title": "XIAOSHUAI UI",
           "hero": {
             "title": "XIAOSHUAI UI",

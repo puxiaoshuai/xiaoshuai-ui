@@ -3,6 +3,7 @@ import { defineConfig } from 'dumi';
 let base = '/xiaoshuai-ui';
 let publicPath = '/xiaoshuai-ui/';
 
+//本地启动不许奥设置 路径
 if (process.env.SITE_BUILD_ENV === 'PREVIEW') {
   base = undefined;
   publicPath = undefined;
